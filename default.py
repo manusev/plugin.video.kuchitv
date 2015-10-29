@@ -27,16 +27,16 @@ import xbmcplugin
 import plugintools, ioncube, scrapertools, unwise
 import time, random
 
-__home__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/', ''))
+__home__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/', ''))
 __temp__ = xbmc.translatePath(os.path.join('special://home/userdata/playlists/tmp', ''))
 __playlists__ = xbmc.translatePath(os.path.join('special://home/userdata/playlists', ''))
-__art__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/art', ''))
-__cbx_pages__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/art/cbx', ''))
-__icons__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/art/icons', ''))
+__art__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/art', ''))
+__cbx_pages__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/art/cbx', ''))
+__icons__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/art/icons', ''))
 __libdir__ = xbmc.translatePath(os.path.join('special://xbmc/system/players/dvdplayer/', ''))
-__tools__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/resources/tools', ''))
+__tools__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/resources/tools', ''))
 __addons__ = xbmc.translatePath(os.path.join('special://home/addons/', ''))
-__resources__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.monstertv/resources', ''))
+__resources__ = xbmc.translatePath(os.path.join('special://home/addons/plugin.video.kuchitv/resources', ''))
 
 addonName           = xbmcaddon.Addon().getAddonInfo("name")
 addonVersion        = xbmcaddon.Addon().getAddonInfo("version")
